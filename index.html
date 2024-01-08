@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Gmail Clone</title>
+</head>
+<body>
+    <!--Header starts-->
+    <div class="header">
+        <div class="header_left">
+            <img src="https://cdn1.iconfinder.com/data/icons/heroicons-ui/24/menu-512.png" alt="menu" width="30px" height="30px">
+            <img src="https://cdn.stealthoptional.com/images/ncavvykf/stealth/0ead6675430e23b1fa83ea02a362b61de201eecd-1400x932.jpg?rect=0,99,1400,735&w=1200&h=630&auto=format" alt="logo" width="110px" height="60px">
+        </div>
+        
+        <div class="header_middle">
+            <img class="search" src="https://cdn2.iconfinder.com/data/icons/ios-7-icons/50/search-512.png" width="20px" height="20px" >
+            <p class="bar"><input id="bar" type="text" placeholder="Search Mail" ></p>
+            <img class="arrows" src="https://png.pngtree.com/png-vector/20220609/ourmid/pngtree-filter-search-option-icon-png-image_4837243.png" width="20px" height="20px">
+                
+          </div>
+
+        <div class="header right">
+            <img src="https://icons.veryicon.com/png/o/education-technology/alibaba-big-data-oneui/help-question-mark.png" alt="support" width="30px" height="30px" id="support">
+            <img src="https://static-00.iconduck.com/assets.00/settings-icon-2048x2046-cw28eevx.png" alt="settings" width="30px" height="30px" id="settings">
+            <img src="https://cdn.iconscout.com/icon/free/png-256/free-dots-nine-3602636-3003318.png" alt="menu icon" width="30px" height="30px" id="menu">
+            <img src="https://static-00.iconduck.com/assets.00/s-letter-icon-2048x2048-m0xes2ht.png" alt="profile" width="30px" height="30px" id="profile">
+        </div>
+    </div>
+
+    <!--Main body-->
+    <div class="main_body">
+        <div class="sidebar">
+            <button class="compose">
+                <img src="https://cdn0.iconfinder.com/data/icons/email-7/100/Minio_Email_Bold-66-512.png" alt="pen_icon" width="20px" height="20px" id="foo">
+                Compose
+            </button>
+        
+            
+            <div class="inbox">
+                <a href="#">
+                <img src="https://img.favpng.com/9/23/12/computer-icons-inbox-by-gmail-download-symbol-png-favpng-UWdPuDLuDviQTF2xih2Z0jWmh_t.jpg" alt="inbox" width="13px" height="15px" >
+                Inbox</a>
+            </div>
+
+            <div class="starred">
+                <a href="#">
+                <img src="https://cdn3.iconfinder.com/data/icons/sympletts-free-sampler/128/star-512.png" alt="starred" width="17px" height="17px">
+                Starred</a>
+            </div>
+
+            <div class="snoozed">
+                <a href="#">
+                <img src="https://cdn.iconscout.com/icon/free/png-256/free-snooze-alarm-clock-bell-set-time-32106.png" alt="snoozed" width="17px" height="17px">
+                Snoozed</a>
+            </div>
+
+            <div class="sent">
+                <a href="#">
+                <img src="https://cdn-icons-png.flaticon.com/512/1181/1181804.png" alt="sent" width="13px" height="13px">
+                Sent</a>
+            </div>
+
+            <div class="drafts">
+                <a href="#">
+                <img src="https://static.thenounproject.com/png/3849553-200.png" alt="drafts" width="15px" height="15px">
+            Drafts</a>
+            </div>
+
+            <div class="more">
+                <a href="#">
+                <img src="https://cdn-icons-png.flaticon.com/512/54/54470.png" alt="more" width="12px" height="12px">
+                More</a>
+            </div>
+            
+        
+        </div>
+            <!-- <button id="but">
+    <div class="labels">
+       Labels
+        <img src="https://cdn-icons-png.flaticon.com/512/7794/7794550.png" alt="labels" id="lab" width="20px" height="20px">
+    </button>
+    </div>
+    
+    <div id="jee">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRw5Ulr_o4f79GlY4z02XDXoUis96uTu_VUA&usqp=CAU" alt="jee" width="15px" height="15px">
+        JEE Docs
+    </div>
+    
+    <div id="nit">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRw5Ulr_o4f79GlY4z02XDXoUis96uTu_VUA&usqp=CAU" alt="nitt" width="15px" height="15px">
+        NIT Trichy
+    </div> -->
+    <!---->
+
+
+
+
+<!--List email starts-->
+
+<div class="emailList">
+<button class="cent">
+    <div class="right">
+        <p class="cb"><input  type="checkbox"/></p>
+        <img src="https://cdn-icons-png.flaticon.com/512/54/54785.png" alt="arrows" width="15px" height="15px" id="arrow">
+        <img src="https://w7.pngwing.com/pngs/426/1011/png-transparent-hi-guess-the-tv-show-pic-quiz-computer-icons-refresh-free-android-game-buttorn-angle-text-photography.png" width="15px" height="15px" alt="refresh" id="refresh">
+        <img src="https://cdn-icons-png.flaticon.com/512/149/149947.png" alt="more" id="more" width="15px" height="15px" >
+        <img src="https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronLeftRight-512.png" alt="left" id="lar"width="22px" height="19px" >
+        
+    </div>
+
+<div class="email_sections">
+   
+   
+    <div class="section">
+        
+        <img class="icon_p" src="https://banner2.cleanpng.com/20180413/xvw/kisspng-computer-icons-inbox-by-gmail-license-5ad10481b01df9.6031326615236476177214.jpg"  alt="inbox" width="17px" height="17px" >
+        <a href="#">
+        <h2 id="text_p">Primary</h2></a>
+    </a>
+    </div>
+
+    
+    <div class="section">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_2RbLOuOMtiapq-nZl5xp4GYgTfdxHhvLt-xSLpFyYXQJER_5R4U0I0kl_gSFNumPXMw&usqp=CAU" id="promotion" alt="inbox" width="17px" height="17px" >
+        <a href="#">
+        <h2 id="pro">Promotions</h2></a>
+    </div>
+
+    
+    <div class="section">
+        <img src="https://static.vecteezy.com/system/resources/previews/026/622/151/original/crowd-people-silhouette-icon-illustration-social-icon-flat-style-design-user-group-network-enterprise-team-group-community-member-icon-business-team-work-activity-user-icon-free-vector.jpg" id="social" alt="inbox" width="17px" height="17px" >
+        <a href="#">
+        <h2 id="soc">Social</h2></div></a>
+        
+    </div>
+    
+
+    <button class="one">
+        <div class="list">
+            <div class="row">
+                <div class="row_options">
+                    <p id="check"><input type="checkbox" ></p>
+                    <img id="star" src="https://cdn-icons-png.flaticon.com/512/149/149220.png" alt="star" width="15px" height="15px">
+                    <img id="label" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHvmyLHnQ_rdS54uFz1ce4gnKPIElF8y9wDw&usqp=CAU" alt="label" width="15px" height="15px"></div>
+                </div>
+                <h3 class="row_item">Youtube</h3>
+                <div class="row_message">
+                    <h4>You got a new Subscriber <span class="row_description">
+                        on your Channel Shweta.
+                    </span></h4>
+                </div>
+                <p class="row_time">1pm</p>
+            </div>
+        </button>
+        <button class="two">
+            <div class="list">
+                <div class="row">
+                    <div class="row_options">
+                        <p id="check"><input type="checkbox" ></p>
+                        <img id="star" src="https://cdn-icons-png.flaticon.com/512/149/149220.png" alt="star" width="15px" height="15px">
+                        <img id="label" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHvmyLHnQ_rdS54uFz1ce4gnKPIElF8y9wDw&usqp=CAU" alt="label" width="15px" height="15px"></div>
+                    </div>
+                    <h3 class="row_item">Youtube</h3>
+                    <div class="row_message">
+                        <h4>You got a new Subscriber <span class="row_description">
+                            on your Channel Shweta.
+                        </span></h4>
+                    </div>
+                    <p class="row_time">1pm</p>
+                </div>
+            </button>
+            <button class="two">
+                <div class="list">
+                    <div class="row">
+                        <div class="row_options">
+                            <p id="check"><input type="checkbox" ></p>
+                            <img id="star" src="https://cdn-icons-png.flaticon.com/512/149/149220.png" alt="star" width="15px" height="15px">
+                            <img id="label" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHvmyLHnQ_rdS54uFz1ce4gnKPIElF8y9wDw&usqp=CAU" alt="label" width="15px" height="15px"></div>
+                        </div>
+                        <h3 class="row_item">Youtube</h3>
+                        <div class="row_message">
+                            <h4>You got a new Subscriber <span class="row_description">
+                                on your Channel Shweta.
+                            </span></h4>
+                        </div>
+                        <p class="row_time">1pm</p>
+                    </div>
+                </button>
+                <button class="two">
+                    <div class="list">
+                        <div class="row">
+                            <div class="row_options">
+                                <p id="check"><input type="checkbox" ></p>
+                                <img id="star" src="https://cdn-icons-png.flaticon.com/512/149/149220.png" alt="star" width="15px" height="15px">
+                                <img id="label" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHvmyLHnQ_rdS54uFz1ce4gnKPIElF8y9wDw&usqp=CAU" alt="label" width="15px" height="15px"></div>
+                            </div>
+                            <h3 class="row_item">Youtube</h3>
+                            <div class="row_message">
+                                <h4>You got a new Subscriber <span class="row_description">
+                                    on your Channel Shweta.
+                                </span></h4>
+                            </div>
+                            <p class="row_time">1pm</p>
+                        </div>
+                    </button>
+                    <button class="two">
+                        <div class="list">
+                            <div class="row">
+                                <div class="row_options">
+                                    <p id="check"><input type="checkbox" ></p>
+                                    <img id="star" src="https://cdn-icons-png.flaticon.com/512/149/149220.png" alt="star" width="15px" height="15px">
+                                    <img id="label" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHvmyLHnQ_rdS54uFz1ce4gnKPIElF8y9wDw&usqp=CAU" alt="label" width="15px" height="15px"></div>
+                                </div>
+                                <h3 class="row_item">Youtube</h3>
+                                <div class="row_message">
+                                    <h4>You got a new Subscriber <span class="row_description">
+                                        on your Channel Shweta.
+                                    </span></h4>
+                                </div>
+                                <p class="row_time">1pm</p>
+                            </div>
+                        </button>
+                        <button class="two">
+                            <div class="list">
+                                <div class="row">
+                                    <div class="row_options">
+                                        <p id="check"><input type="checkbox" ></p>
+                                        <img id="star" src="https://cdn-icons-png.flaticon.com/512/149/149220.png" alt="star" width="15px" height="15px">
+                                        <img id="label" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHvmyLHnQ_rdS54uFz1ce4gnKPIElF8y9wDw&usqp=CAU" alt="label" width="15px" height="15px"></div>
+                                    </div>
+                                    <h3 class="row_item">Youtube</h3>
+                                    <div class="row_message">
+                                        <h4>You got a new Subscriber <span class="row_description">
+                                            on your Channel Shweta.
+                                        </span></h4>
+                                    </div>
+                                    <p class="row_time">1pm</p>
+                                </div>
+                            </button>
+                            <button class="two">
+                                <div class="list">
+                                    <div class="row">
+                                        <div class="row_options">
+                                            <p id="check"><input type="checkbox" ></p>
+                                            <img id="star" src="https://cdn-icons-png.flaticon.com/512/149/149220.png" alt="star" width="15px" height="15px">
+                                            <img id="label" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHvmyLHnQ_rdS54uFz1ce4gnKPIElF8y9wDw&usqp=CAU" alt="label" width="15px" height="15px"></div>
+                                        </div>
+                                        <h3 class="row_item">Youtube</h3>
+                                        <div class="row_message">
+                                            <h4>You got a new Subscriber <span class="row_description">
+                                                on your Channel Shweta.
+                                            </span></h4>
+                                        </div>
+                                        <p class="row_time">1pm</p>
+                                    </div>
+                                </button>
+                                <button class="two">
+                                    <div class="list">
+                                        <div class="row">
+                                            <div class="row_options">
+                                                <p id="check"><input type="checkbox" ></p>
+                                                <img id="star" src="https://cdn-icons-png.flaticon.com/512/149/149220.png" alt="star" width="15px" height="15px">
+                                                <img id="label" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHvmyLHnQ_rdS54uFz1ce4gnKPIElF8y9wDw&usqp=CAU" alt="label" width="15px" height="15px"></div>
+                                            </div>
+                                            <h3 class="row_item">Youtube</h3>
+                                            <div class="row_message">
+                                                <h4>You got a new Subscriber <span class="row_description">
+                                                    on your Channel Shweta.
+                                                </span></h4>
+                                            </div>
+                                            <p class="row_time">1pm</p>
+                                        </div>
+                                    </button>
+                                    <button class="two">
+                                        <div class="list">
+                                            <div class="row">
+                                                <div class="row_options">
+                                                    <p id="check"><input type="checkbox" ></p>
+                                                    <img id="star" src="https://cdn-icons-png.flaticon.com/512/149/149220.png" alt="star" width="15px" height="15px">
+                                                    <img id="label" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHvmyLHnQ_rdS54uFz1ce4gnKPIElF8y9wDw&usqp=CAU" alt="label" width="15px" height="15px"></div>
+                                                </div>
+                                                <h3 class="row_item">Youtube</h3>
+                                                <div class="row_message">
+                                                    <h4>You got a new Subscriber <span class="row_description">
+                                                        on your Channel Shweta.
+                                                    </span></h4>
+                                                </div>
+                                                <p class="row_time">1pm</p>
+                                            </div>
+                                        </button>
+                                        <button class="two">
+                                            <div class="list">
+                                                <div class="row">
+                                                    <div class="row_options">
+                                                        <p id="check"><input type="checkbox" ></p>
+                                                        <img id="star" src="https://cdn-icons-png.flaticon.com/512/149/149220.png" alt="star" width="15px" height="15px">
+                                                        <img id="label" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHvmyLHnQ_rdS54uFz1ce4gnKPIElF8y9wDw&usqp=CAU" alt="label" width="15px" height="15px"></div>
+                                                    </div>
+                                                    <h3 class="row_item">Youtube</h3>
+                                                    <div class="row_message">
+                                                        <h4>You got a new Subscriber <span class="row_description">
+                                                            on your Channel Shweta.
+                                                        </span></h4>
+                                                    </div>
+                                                    <p class="row_time">1pm</p>
+                                                </div>
+                                            </button>
+                                            <button class="two">
+                                                <div class="list">
+                                                    <div class="row">
+                                                        <div class="row_options">
+                                                            <p id="check"><input type="checkbox" ></p>
+                                                            <img id="star" src="https://cdn-icons-png.flaticon.com/512/149/149220.png" alt="star" width="15px" height="15px">
+                                                            <img id="label" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHvmyLHnQ_rdS54uFz1ce4gnKPIElF8y9wDw&usqp=CAU" alt="label" width="15px" height="15px"></div>
+                                                        </div>
+                                                        <h3 class="row_item">Youtube</h3>
+                                                        <div class="row_message">
+                                                            <h4>You got a new Subscriber <span class="row_description">
+                                                                on your Channel Shweta.
+                                                            </span></h4>
+                                                        </div>
+                                                        <p class="row_time">1pm</p>
+                                                    </div>
+                                                </button>
+                                                <button class="two">
+                                                    <div class="list">
+                                                        <div class="row">
+                                                            <div class="row_options">
+                                                                <p id="check"><input type="checkbox" ></p>
+                                                                <img id="star" src="https://cdn-icons-png.flaticon.com/512/149/149220.png" alt="star" width="15px" height="15px">
+                                                                <img id="label" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHvmyLHnQ_rdS54uFz1ce4gnKPIElF8y9wDw&usqp=CAU" alt="label" width="15px" height="15px"></div>
+                                                            </div>
+                                                            <h3 class="row_item">Youtube</h3>
+                                                            <div class="row_message">
+                                                                <h4>You got a new Subscriber <span class="row_description">
+                                                                    on your Channel Shweta.
+                                                                </span></h4>
+                                                            </div>
+                                                            <p class="row_time">1pm</p>
+                                                        </div>
+                                                    </button>
+                                                    <button class="two">
+                                                        <div class="list">
+                                                            <div class="row">
+                                                                <div class="row_options">
+                                                                    <p id="check"><input type="checkbox" ></p>
+                                                                    <img id="star" src="https://cdn-icons-png.flaticon.com/512/149/149220.png" alt="star" width="15px" height="15px">
+                                                                    <img id="label" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHvmyLHnQ_rdS54uFz1ce4gnKPIElF8y9wDw&usqp=CAU" alt="label" width="15px" height="15px"></div>
+                                                                </div>
+                                                                <h3 class="row_item">Youtube</h3>
+                                                                <div class="row_message">
+                                                                    <h4>You got a new Subscriber <span class="row_description">
+                                                                        on your Channel Shweta.
+                                                                    </span></h4>
+                                                                </div>
+                                                                <p class="row_time">1pm</p>
+                                                            </div>
+                                                        </button>
+    </div>
+</div>
+</div>
+
+
+</body>
+</html>
+=

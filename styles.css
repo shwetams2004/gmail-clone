@@ -104,18 +104,11 @@ align-items: center;
     cursor: pointer;
     outline: none;
     border: none;
-    /* box-shadow: 0px 2px 5px -2px rgba(0, 0, 0, 0.75); */
     display: flex;
     
-    /* padding:  10px; */
-    /* border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    cursor: pointer; */
+
     font-size: 20px;
 }
-/* .main_body:hover,
-.main_body:hover h3, */
-
 #foo{
     padding-top: 6px;
     
@@ -138,10 +131,7 @@ align-items: center;
     padding-top: 20px;
 
 }
-/* table{
-    border: 2px solid black;
-    border-collapse: collapse;
-} */
+
 
 .number{
     width: 200px;
@@ -186,37 +176,6 @@ align-items: center;
     padding-top: 10px;
     padding-left: 1px;
 }
-/* .labels{
-    padding-top: 10px;
-    padding-left: 10px;
-    font-size:19px;
-} */
-
-/* #but{
-    border: none;
-    border-radius: 10px;
-    padding-left: 0px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    align-items: end;
-    height: 40px;
-    width: 175px;
-} */
-
-
-/* #lab{
-    padding-left: 70px;
-}
-#jee{
-    padding-left: 10px;
-    padding-top: 10px;
-    font-size:15px;
-}
-#nit{
-    padding-left: 10px;
-    padding-top: 10px;
-    font-size:15px;
-
-} */
 
 .emailList{
     padding-left: 10px;
@@ -257,10 +216,7 @@ align-items: center;
     padding-left: 900px;
     padding-bottom: 10px;
 }
-/* #rar{
-    padding-left: 8px;
-    padding-top: 6px;
-} */
+
 .cent{
     width: 1100px;
     height: 30px;
